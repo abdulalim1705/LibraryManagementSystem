@@ -42,7 +42,7 @@ public class ForgetPassword extends javax.swing.JFrame {
                 pst.close();
                 
             }else{
-                JOptionPane.showMessageDialog(null, "Incorrect username.");
+                JOptionPane.showMessageDialog(null, "Invalid username.");
             }
         
         }catch(Exception e){
